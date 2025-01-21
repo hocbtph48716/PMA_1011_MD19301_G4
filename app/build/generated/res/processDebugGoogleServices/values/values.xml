@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">1040650506445</string>
+    <string name="google_api_key" translatable="false">AIzaSyCW1Bpk6042VuDU9G8CdOhU0AuN0W6fpyI</string>
+    <string name="google_app_id" translatable="false">1:1040650506445:android:e837655e7ca7ab32925984</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCW1Bpk6042VuDU9G8CdOhU0AuN0W6fpyI</string>
+    <string name="google_storage_bucket" translatable="false">smartmart-288e4.firebasestorage.app</string>
+    <string name="project_id" translatable="false">smartmart-288e4</string>
+</resources>
