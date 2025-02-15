@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <!-- Header Title -->
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/white"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+
+
+
+    <!-- Buttons Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingVertical="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#FFFFFF"
+        android:elevation="2dp"
+        android:padding="8dp">
+
+        <!-- Button 1 -->
+        <Button
+            android:id="@+id/btndalayhang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="8dp"
+            android:text="Đã lấy hàng"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2196F3"
+            android:layout_weight="1" />
+
+        <!-- Button 2 -->
+        <Button
+            android:id="@+id/btnchogiaohang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="8dp"
+            android:text="Chờ giao hàng"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FF9800"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <!-- Fragment Container -->
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"
+        android:background="#FFFFFF"
+        android:elevation="4dp" />
+</LinearLayout>

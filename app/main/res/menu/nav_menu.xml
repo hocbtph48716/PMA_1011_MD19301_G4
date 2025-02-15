@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_product"
+            android:icon="@drawable/ic_product"
+            android:title="Quản lý sản phẩm" />
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/ic_category"
+            android:title="Quản lý danh mục sản phẩm" />
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_order"
+            android:title="Quản lý đơn hàng" />
+        <item
+            android:id="@+id/nav_customer"
+            android:icon="@drawable/ic_customer"
+            android:title="Quản lý khách hàng" />
+        <item
+            android:id="@+id/nav_support"
+            android:icon="@drawable/ic_support"
+            android:title="Hỗ trợ chăm sóc khách hàng" />
+    </group>
+
+    <item android:title="Thống kê">
+        <menu>
+            <item
+                android:id="@+id/nav_product_stats"
+                android:icon="@drawable/ic_stats"
+                android:title="Thống kê sản phẩm" />
+            <item
+                android:id="@+id/nav_revenue"
+                android:icon="@drawable/ic_money"
+                android:title="Doanh thu" />
+        </menu>
+    </item>
+
+    <item android:title="Thông tin Admin">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_profile"
+                android:title="Thông tin cá nhân" />
+            <item
+                android:id="@+id/nav_change_password"
+                android:icon="@drawable/ic_password"
+                android:title="Đổi mật khẩu" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Đăng xuất" />
+        </menu>
+    </item>
+</menu>
+

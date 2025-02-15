@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SmartMart</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="payment_methods">
+        <item>Thẻ tín dụng</item>
+        <item>Thanh toán trực tiếp</item>
+        <item>Chuyển khoản ngân hàng</item>
+    </string-array>
+
+    <string name="nav_header_title">Xin chào Admin</string>
+    <string name="nav_header_subtitle">admin@smartmart.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+</resources>

@@ -1,0 +1,41 @@
+<!-- res/menu/menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mLichSuDonHang"
+        android:title="Lịch sử đơn hàng"
+        android:icon="@drawable/ic_ql"/>
+    <item android:id="@+id/mQLSanPham"
+        android:title="Quản lý sản phẩm"
+        android:icon="@drawable/ic_ql"/>
+    <item android:id="@+id/mQLKhachhang"
+        android:title="Quản lý khách hàng"
+        android:icon="@drawable/ic_kh"/>
+        <item android:id="@+id/mQLDonhang"
+        android:title="Quản lý đơn hàng"
+        android:icon="@drawable/ic_people"/>
+    <item android:title="Thống kê">
+        <menu>
+            <item android:id="@+id/mTopSP"
+                android:title="Top sản phẩm bán chạy"
+                android:icon="@drawable/ic_top"/>
+            <item android:id="@+id/mDoanhThu"
+                android:title="Doanh thu"
+                android:icon="@drawable/ic_paid"/>
+        </menu>
+    </item>
+
+    <item android:title="Người dùng">
+        <menu>
+            <item
+                android:id="@+id/taiKhoan"
+                android:title="Tài Khoản"
+                android:icon="@drawable/ic_profile"
+                />
+            <item android:id="@+id/mDoiMK"
+                android:title="Đổi mật khẩu"
+                android:icon="@drawable/ic_key"/>
+            <item android:id="@+id/mDangxuat"
+                android:title="Đăng xuất"
+                android:icon="@drawable/ic_exit"/>
+        </menu>
+    </item>
+</menu>
